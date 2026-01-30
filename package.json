@@ -1,19 +1,31 @@
 {
-  "name": "port_killer",
+  "name": "byeport",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/cli.js",
   "type": "module",
   "bin": "dist/cli.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
     "start": "node dist/cli.js",
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "cli",
+    "port",
+    "kill",
+    "process",
+    "terminal",
+    "tui",
+    "ink"
+  ],
+  "author": "Raj Tiwari",
+  "license": "MIT",
+  "description": "A beautiful, interactive CLI to identify and kill running processes on your ports.",
   "devDependencies": {
     "@types/node": "^25.1.0",
     "@types/react": "^19.2.10",

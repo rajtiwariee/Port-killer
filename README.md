@@ -1,8 +1,8 @@
-# Port Killer 🔫
+# Byeport �
 
 A beautiful, interactive Terminal User Interface (TUI) to identify and kill running processes on your ports.
 
-![Port Killer Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2Q1.../giphy.gif)
+![Byeport Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2Q1.../giphy.gif)
 
 ## Features
 - **Clean UI**: Beautiful gradient header and clear table layout.
@@ -13,19 +13,17 @@ A beautiful, interactive Terminal User Interface (TUI) to identify and kill runn
 ## How to use
 
 ### Option 1: Run via npx (Recommended)
-If published to npm, you can run it instantly without installation:
 ```bash
-npx port-killer
+npx byeport
 ```
 
 ### Option 2: Global Installation
-Install it permanently on your system:
 ```bash
-npm install -g port-killer
+npm install -g byeport
 ```
 Then run it anywhere:
 ```bash
-port-killer
+byeport
 ```
 
 ### Option 3: Run from Source
