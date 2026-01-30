@@ -2,8 +2,6 @@
 
 A beautiful, interactive Terminal User Interface (TUI) to identify and kill running processes on your ports.
 
-![Byeport Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2Q1.../giphy.gif)
-
 ## Features
 - **Clean UI**: Beautiful gradient header and clear table layout.
 - **Interactive**: Navigate with arrow keys, kill with Enter.
